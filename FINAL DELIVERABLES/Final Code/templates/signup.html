@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>Job seekers SignUp</title>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signup">SignUp</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="signin">Signin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</br>
+</br></br>
+<div class="card mx-auto"  style="width: 50rem;">
+<h2 align="center" class="p-3 mb-2 bg-light text-dark">Job seekers SignUp</h2>
+  <div class="card-body">
+<form action="/confirm" method="post" class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input name="email" type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" name="password" class="form-control" id="inputPassword4">
+  </div>
+      <div class="col-md-5">
+    <label for="name" class="form-label">FullName</label>
+    <input type="text" class="form-control" id="name" name="fullname">
+  </div>
+        <div class="col-md-3">
+    <label for="name" class="form-label">Gender</label>
+          <select id="gender" class="form-select" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option></select>
+  </div>
+      <div class="col-md-4">
+    <label for="dob" class="form-label">DOB</label>
+    <input type="date" class="form-control" id="dob" name="dob">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" name="address" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+
+
+
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity" name="city">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select" name="state">
+      <option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+<option value="Daman and Diu">Daman and Diu</option>
+<option value="Delhi">Delhi</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Pincode</label>
+    <input type="text" class="form-control" id="inputZip" name="pincode">
+  </div>
+
+      <div class="col-6">
+    <label for="Skills" class="form-label">SSLC %</label>
+    <input type="text" name="sslc" class="form-control" id="sslc" placeholder="">
+  </div>
+    <div class="col-6">
+    <label for="Qualification" class="form-label">HSC %</label>
+    <input type="text" name="hsc" class="form-control" id="hsc" placeholder="">
+  </div>
+
+
+    <div class="col-6">
+    <label for="Skills" class="form-label">Skills</label>
+    <input type="text" name="skills" class="form-control" id="Skills" placeholder="">
+  </div>
+    <div class="col-6">
+    <label for="Qualification" class="form-label">Highest Qualification</label>
+    <input type="text" name="qualification" class="form-control" id="Qualification" placeholder="">
+  </div>
+
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign Up</button>
+  </div>
+</form>
+
+    <p>Already have an account ?</p>
+  <a   href="signin" role="button">Sign In</a>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
